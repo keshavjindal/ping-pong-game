@@ -1,0 +1,56 @@
+
+*{
+margin : 0px;
+padding : 0px;
+box-sizing : border-box;
+}
+
+body{
+    height : 100vh;
+    background-image : linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+display : flex;
+justify-content: center;
+align-items: center;
+}
+
+.board{
+    height : 85vh;
+    width : 80vw;
+    background-color :blanchedalmond;
+    border-radius: 10px;
+}
+
+.ball{
+    height : 40px;
+    width : 40px;
+    border-radius : 50%;
+    background-color: black;
+
+    position : fixed;
+    top : 45vh;
+    left : 50vw;
+}
+
+.paddle{
+
+    height : 120px;
+    width : 15px;
+    background-color : chocolate;
+    border-radius: 2px;
+    position : fixed;
+    border-radius: 2px;
+
+
+}
+
+.left{
+    top : 40vh;
+    left : 12vw;
+
+}
+
+.right{
+    top : 40vh;
+    right : 12vw;
+
+}
